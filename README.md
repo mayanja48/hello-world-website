@@ -1,16 +1,32 @@
-# Hello World Website
+# 🚀 Hello World: My First Cloud Deployment
 
-This is a simple "Hello World" website deployed to Google Cloud Run.
+A simple yet significant "Hello World" website, successfully deployed on **Google Cloud Run**. This project marks my first hands-on experience with cloud infrastructure and the `gcloud` CLI, serving as a foundational step in my cloud development journey.
 
-## About Me
-I'm Mayanja Charles, a passionate learner and developer from Uganda. I am currently exploring cloud technologies and software development.
+## 👨‍💻 About Me
 
-## Project Details
-This project demonstrates a basic static website built with HTML and CSS. It was deployed using the Google Cloud `gcloud` CLI command.
+I'm **Mayanja Charles**, a passionate and motivated developer from **Uganda**. I am actively exploring cloud technologies and software development with a focus on Google Cloud Platform (GCP). My goal is to build scalable, efficient solutions and contribute to the global tech community.
 
-**Live Demo:** [https://my-hello-world-service-abc123-uc.a.run.app](https://my-hello-world-service-abc123-uc.a.run.app) *(Replace this with the actual URL from the previous tutorial!)*
+I am currently preparing to participate in the **Google CLI research study**, and this project is a direct result of my preparation.
 
-## What I Learned
-- How to create a basic HTML page.
-- How to use the `gcloud run deploy` command.
-- How to manage code on GitHub.
+## 📁 Project Details
+
+This project demonstrates the end-to-end process of deploying a static website to a fully managed cloud environment.
+
+*   **Frontend:** Basic HTML & CSS
+*   **Cloud Service:** Google Cloud Run
+*   **Deployment Tool:** Google Cloud CLI (`gcloud`)
+*   **Infrastructure Concept:** Serverless Deployment
+*   **Source Control:** GitHub
+
+**Live Demo**: [https://my-hello-world-service-abc123-uc.a.run.app](https://my-hello-world-service-abc123-uc.a.run.app) *(Remember to replace this with your real URL!)*
+
+## 🛠️ How I Deployed This
+
+The deployment was executed using a single command, showcasing the power and simplicity of the `gcloud` CLI:
+
+```bash
+gcloud run deploy my-hello-world-service \
+  --image=us-docker.pkg.dev/cloudrun/container/hello \
+  --region=us-central1 \
+  --platform=managed \
+  --allow-unauthenticated
