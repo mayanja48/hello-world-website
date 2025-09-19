@@ -18,7 +18,7 @@ This project demonstrates the end-to-end process of deploying a static website t
 *   **Infrastructure Concept:** Serverless Deployment
 *   **Source Control:** GitHub
 
-**Live Demo**: [https://my-hello-world-service-abc123-uc.a.run.app](https://my-hello-world-service-abc123-uc.a.run.app) *(Remember to replace this with your real URL!)*
+**Live Demo**:  https://github.com/mayanja48/hello-world-website
 
 ## 🛠️ How I Deployed This
 
